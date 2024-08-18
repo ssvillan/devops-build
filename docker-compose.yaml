@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: mynginximg:latest
+    ports:
+      - "3000:80"
